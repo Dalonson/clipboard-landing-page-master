@@ -40,6 +40,12 @@ font-family: 'Bai Jamjuree', sans-serif;
   font-family: "Bai Jamjuree", sans-serif;
 }
 
+/* HEADER BACKGROUND IMAGES */
+
+.header-bg-img-dsktop {
+  width: 100vw;
+}
+
 .header-bg-img-mobile {
   display: none;
 }
@@ -114,8 +120,16 @@ h2 {
 
 .feature-box {
   display: flex;
+  gap: 15px;
+  width: 100vw;
+  margin: 0;
 }
 
-.header-bg-img-dsktop {
-  width: 100vw;
+/* .computer-container {
+} */
+
+.computer {
+  width: 500px;
+  position: relative;
+  left: -15px;
 }
