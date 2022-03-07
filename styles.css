@@ -133,3 +133,26 @@ h2 {
   position: relative;
   left: -15px;
 }
+
+.feature-box-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.feature-title {
+  color: hsl(210, 10%, 33%);
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.feature-description {
+  color: hsl(201, 11%, 66%);
+  font-size: 14px;
+}
+
+.feat-right-col-box {
+  margin: 0 115px;
+  line-height: 1.5;
+}
