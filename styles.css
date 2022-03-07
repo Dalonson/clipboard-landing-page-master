@@ -43,3 +43,79 @@ font-family: 'Bai Jamjuree', sans-serif;
 .header-bg-img-mobile {
   display: none;
 }
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 650px;
+  margin: 0px auto;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 40px;
+  margin-top: -200px;
+}
+
+h1 {
+  color: hsl(210, 10%, 33%);
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.header-description {
+  font-size: 18px;
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.header-btn-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 100px;
+}
+
+button {
+  color: white;
+  padding: 10px 30px;
+  border-radius: 24px;
+  border: none;
+}
+
+.ios-download {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.mac-download {
+  background-color: hsl(233, 100%, 69%);
+}
+
+/* FEATURE SECTION */
+
+.feat-head-box {
+  width: 650px;
+  margin: 0 auto;
+  color: hsl(210, 10%, 33%);
+}
+
+h2 {
+  text-align: center;
+}
+
+.features-description {
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 50px;
+}
+
+.feature-box {
+  display: flex;
+}
+
+.header-bg-img-dsktop {
+  width: 100vw;
+}
