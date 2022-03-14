@@ -38,6 +38,7 @@ font-family: 'Bai Jamjuree', sans-serif;
   padding: 0;
   box-sizing: border-box;
   font-family: "Bai Jamjuree", sans-serif;
+  line-height: 1;
 }
 
 /* HEADER BACKGROUND IMAGES */
@@ -71,12 +72,17 @@ h1 {
   margin-bottom: 15px;
 }
 
+.header-title {
+  line-height: 1.5;
+}
+
 .header-description {
   font-size: 18px;
   text-align: center;
   color: hsl(201, 11%, 66%);
   font-weight: 400;
   margin-bottom: 25px;
+  line-height: 1.5;
 }
 
 .header-btn-container {
@@ -90,6 +96,7 @@ button {
   padding: 10px 30px;
   border-radius: 24px;
   border: none;
+  cursor: pointer;
 }
 
 .ios-download {
@@ -112,10 +119,15 @@ h2 {
   text-align: center;
 }
 
+.features-title {
+  padding-bottom: 25px;
+}
+
 .features-description {
   text-align: center;
   color: hsl(201, 11%, 66%);
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+  line-height: 1.5;
 }
 
 .feature-box {
@@ -150,9 +162,40 @@ h2 {
 .feature-description {
   color: hsl(201, 11%, 66%);
   font-size: 14px;
+  line-height: 1.5;
 }
 
 .feat-right-col-box {
   margin: 0 115px;
   line-height: 1.5;
+}
+
+/* PREVIEW SECTION */
+
+.preview {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.preview-header {
+  align-items: center;
+}
+
+.preview-title {
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+
+.preview-description {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.device {
+  width: 8%;
 }
